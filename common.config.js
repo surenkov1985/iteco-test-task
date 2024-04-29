@@ -146,7 +146,7 @@ module.exports = {
 							esModule: true,
 							// css modules
 							modules: {
-								localIdentName: "[name]__[local]__[hash:base64:5]", // format of output
+								localIdentName: "[local]", // format of output
 								namedExport: true, // named exports instead of default
 							},
 						},
